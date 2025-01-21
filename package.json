@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@angular/core": "^19.1.2",
+    "@angular/router": "^19.1.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^5.1.5"
+  }
+}

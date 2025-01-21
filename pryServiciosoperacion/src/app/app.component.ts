@@ -2,13 +2,14 @@ import { Component , OnInit} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import{ProductosService} from './productos.service';
 import { CommonModule } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
+  standalone: true,
+  imports: [CommonModule],  // Asegúrate de que CommonModule esté aquí
   selector: 'app-root',
-  imports: [RouterOutlet,CommonModule,HttpClientModule],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
   data: any;

@@ -1,0 +1,65 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;
+    color: #2563a2;
+    font-size: 2.5em;
+}
+
+/* Contenedor de los datos */
+.data-container {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 40%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el subtítulo */
+h2 {
+    font-size: 1.8em;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para la tabla */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+}
+
+/* Estilo para las cabeceras */
+.data-table thead tr {
+    background-color: #172350;
+    color: white;
+    text-align: left;
+}
+
+/* Estilo para las filas */
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+/* Alternar colores en las filas */
+.data-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.data-table tbody tr:hover {
+    background-color: #ddd;
+}
