@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class ProductosService {
 
-  private jsonUrl = 'https://api.allorigins.win/raw?url=' + 
-   encodeURIComponent('https://drive.google.com/uc?id=1WVL_3mj8zVZmF23KAglSqCG0OdmQ_AXU');
+private jsonUrl = 'https://api.allorigins.win/raw?url=' + 
+    encodeURIComponent('https://drive.google.com/uc?id=1WVL_3mj8zVZmF23KAglSqCG0OdmQ_AXU'); 
 
   constructor(private http: HttpClient) { }
 
